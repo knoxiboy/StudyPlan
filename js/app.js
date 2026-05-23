@@ -1131,8 +1131,6 @@ newTaskSave.addEventListener('click', async () => {
   const notes = newTaskNotes.value.trim();
   const dateVal = newTaskDate.value;
 
-  if (!title) {
-    Toast.show('Please enter a task name', 'warning');
   if (!rawTitle) {
     alert('Please enter a task name');
     return;
